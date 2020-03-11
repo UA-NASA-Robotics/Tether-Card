@@ -90,6 +90,15 @@ uint8_t* uart1_rx_getarray() {
 }
 
 
+bool uart1_tx_empty() {
+    return rbuffer_empty(&u1tx_buffer);
+}
+
+uint8_t* uart1_tx_getarray() {
+    return rbuffer_getarray(&u1tx_buffer);
+}
+
+
 void uart1_enable(void) {
     IFS0bits.U1TXIF = 0;
     IFS0bits.U1RXIF = 0;

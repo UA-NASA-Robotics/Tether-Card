@@ -95,8 +95,8 @@ char LEDstatus = Disconnected;
 void initCOMs()
 {
 	// Initializing fast transfer for the coms between Controlbox and robot
-	FT_Init(&Control_ft_handle, ROUTER_CARD, uart1_put_c, uart1_get, uart1_rx_empty);
-	FTC_Init(&can_handle, ROUTER_CARD, 1, CAN1_Initialize, CAN1_transmit, CAN1_receive);
+	FT_Init(&Control_ft_handle, TETHER_CARD, uart1_put_c, uart1_get, uart1_rx_empty);
+	FTC_Init(&can_handle, TETHER_CARD, 1, CAN1_Initialize, CAN1_transmit, CAN1_receive);
     SetFTC_Pointer(&can_handle);
 }
 
@@ -109,8 +109,6 @@ void CommunicationsHandle() {
 	// if any bytes of date have been received from the control box
 	if(FT_Receive(&Control_ft_handle))
 	{
-
-
 		// Check to see if a controlled stop was requested
 
 		if(!checkE_Stop()) {

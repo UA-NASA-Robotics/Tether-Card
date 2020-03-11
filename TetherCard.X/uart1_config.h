@@ -24,6 +24,8 @@ uint8_t uart1_get();
 uint8_t uart1_peek();
 bool uart1_rx_empty();
 uint8_t* uart1_rx_getarray();
+bool uart1_tx_empty();
+uint8_t* uart1_tx_getarray();
 
 void uart1_disable(void);
 void uart1_enable(void);
