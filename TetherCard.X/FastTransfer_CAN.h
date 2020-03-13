@@ -48,7 +48,7 @@ typedef struct FastTransferHandle_CAN
     volatile bool * receiveArrayAddressCAN_Flag[2];
     uint8_t moduleAddressCAN[2];
     uint16_t MaxIndex[2];
-    int receiveArrayCAN[10];
+    int receiveArrayCAN[CAN_RECIEVE_SIZE];
     bool CAN_FT_recievedFlag[CAN_RECIEVE_SIZE];
     int newDataFlag_Global[2];
     volatile int receiveArrayCAN_Global[GLOBAL_DEVICES*GLOBAL_DATA_INDEX_PER_DEVICE + 1];
