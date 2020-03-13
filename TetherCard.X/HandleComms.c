@@ -56,8 +56,8 @@ void CommunicationsHandle(void) {
         // send macro command on a timer to prevent flooding the global CAN bus
         if (timerDone(&can_timer, 1))
         {
-            FTC_ToSend(&uart_handle, getGBL_MACRO_INDEX(TETHER_CARD), FT_Read(&uart_handle, MACRO_COMMAND_INDEX));
-            FTC_ToSend(&uart_handle, getGBL_MACRO_INDEX(TETHER_CARD) + 1, FT_Read(&uart_handle, CAN_COMMAND_DATA_INDEX));
+            FTC_ToSend(&can_handle, getGBL_MACRO_INDEX(TETHER_CARD), FT_Read(&uart_handle, MACRO_COMMAND_INDEX));
+            FTC_ToSend(&can_handle, getGBL_MACRO_INDEX(TETHER_CARD) + 1, FT_Read(&uart_handle, CAN_COMMAND_DATA_INDEX));
             FTC_Send(&can_handle, GLOBAL_ADDRESS);
         }
     }

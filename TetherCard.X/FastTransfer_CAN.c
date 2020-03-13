@@ -397,7 +397,7 @@ int GlobalAddressInterpret(FTC_t* handle, int index) {
 
 void FTC_ToSend(FTC_t* handle, uint16_t where, uint16_t what) {
     rbuffer_push2(&handle->send_buffer_CAN_FT, where >> 8, where);
-    rbuffer_push2(&handle->send_buffer_CAN_FT, what >>8, what);
+    rbuffer_push2(&handle->send_buffer_CAN_FT, what >> 8, what);
 }
 
 void FTC_Send(FTC_t* handle, uint16_t whereToSend) {

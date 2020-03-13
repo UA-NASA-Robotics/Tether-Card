@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=mcc_generated_files/can1.c mcc_generated_files/clock.c mcc_generated_files/dma.c mcc_generated_files/ecan1.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/reset.c mcc_generated_files/system.c mcc_generated_files/traps.c FastTransfer/crc.c FastTransfer/ft.c FastTransfer/parser.c FastTransfer/ring_buffer.c FastTransfer_CAN.c Init.c commsReceive.c main.c peripheralSystems.c timers.c uart1_config.c
+SOURCEFILES_QUOTED_IF_SPACED=FastTransfer/crc.c FastTransfer/ft.c FastTransfer/parser.c FastTransfer/ring_buffer.c mcc_generated_files/can1.c mcc_generated_files/clock.c mcc_generated_files/dma.c mcc_generated_files/ecan1.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/reset.c mcc_generated_files/system.c mcc_generated_files/traps.c FastTransfer_CAN.c Init.c main.c timers.c uart1_config.c HandleComms.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/mcc_generated_files/can1.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/dma.o ${OBJECTDIR}/mcc_generated_files/ecan1.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/reset.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/FastTransfer/crc.o ${OBJECTDIR}/FastTransfer/ft.o ${OBJECTDIR}/FastTransfer/parser.o ${OBJECTDIR}/FastTransfer/ring_buffer.o ${OBJECTDIR}/FastTransfer_CAN.o ${OBJECTDIR}/Init.o ${OBJECTDIR}/commsReceive.o ${OBJECTDIR}/main.o ${OBJECTDIR}/peripheralSystems.o ${OBJECTDIR}/timers.o ${OBJECTDIR}/uart1_config.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/mcc_generated_files/can1.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/dma.o.d ${OBJECTDIR}/mcc_generated_files/ecan1.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/reset.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/FastTransfer/crc.o.d ${OBJECTDIR}/FastTransfer/ft.o.d ${OBJECTDIR}/FastTransfer/parser.o.d ${OBJECTDIR}/FastTransfer/ring_buffer.o.d ${OBJECTDIR}/FastTransfer_CAN.o.d ${OBJECTDIR}/Init.o.d ${OBJECTDIR}/commsReceive.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/peripheralSystems.o.d ${OBJECTDIR}/timers.o.d ${OBJECTDIR}/uart1_config.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/FastTransfer/crc.o ${OBJECTDIR}/FastTransfer/ft.o ${OBJECTDIR}/FastTransfer/parser.o ${OBJECTDIR}/FastTransfer/ring_buffer.o ${OBJECTDIR}/mcc_generated_files/can1.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/dma.o ${OBJECTDIR}/mcc_generated_files/ecan1.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/reset.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/FastTransfer_CAN.o ${OBJECTDIR}/Init.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timers.o ${OBJECTDIR}/uart1_config.o ${OBJECTDIR}/HandleComms.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/FastTransfer/crc.o.d ${OBJECTDIR}/FastTransfer/ft.o.d ${OBJECTDIR}/FastTransfer/parser.o.d ${OBJECTDIR}/FastTransfer/ring_buffer.o.d ${OBJECTDIR}/mcc_generated_files/can1.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/dma.o.d ${OBJECTDIR}/mcc_generated_files/ecan1.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/reset.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/FastTransfer_CAN.o.d ${OBJECTDIR}/Init.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/timers.o.d ${OBJECTDIR}/uart1_config.o.d ${OBJECTDIR}/HandleComms.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/mcc_generated_files/can1.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/dma.o ${OBJECTDIR}/mcc_generated_files/ecan1.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/reset.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/FastTransfer/crc.o ${OBJECTDIR}/FastTransfer/ft.o ${OBJECTDIR}/FastTransfer/parser.o ${OBJECTDIR}/FastTransfer/ring_buffer.o ${OBJECTDIR}/FastTransfer_CAN.o ${OBJECTDIR}/Init.o ${OBJECTDIR}/commsReceive.o ${OBJECTDIR}/main.o ${OBJECTDIR}/peripheralSystems.o ${OBJECTDIR}/timers.o ${OBJECTDIR}/uart1_config.o
+OBJECTFILES=${OBJECTDIR}/FastTransfer/crc.o ${OBJECTDIR}/FastTransfer/ft.o ${OBJECTDIR}/FastTransfer/parser.o ${OBJECTDIR}/FastTransfer/ring_buffer.o ${OBJECTDIR}/mcc_generated_files/can1.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/dma.o ${OBJECTDIR}/mcc_generated_files/ecan1.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/reset.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/FastTransfer_CAN.o ${OBJECTDIR}/Init.o ${OBJECTDIR}/main.o ${OBJECTDIR}/timers.o ${OBJECTDIR}/uart1_config.o ${OBJECTDIR}/HandleComms.o
 
 # Source Files
-SOURCEFILES=mcc_generated_files/can1.c mcc_generated_files/clock.c mcc_generated_files/dma.c mcc_generated_files/ecan1.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/reset.c mcc_generated_files/system.c mcc_generated_files/traps.c FastTransfer/crc.c FastTransfer/ft.c FastTransfer/parser.c FastTransfer/ring_buffer.c FastTransfer_CAN.c Init.c commsReceive.c main.c peripheralSystems.c timers.c uart1_config.c
+SOURCEFILES=FastTransfer/crc.c FastTransfer/ft.c FastTransfer/parser.c FastTransfer/ring_buffer.c mcc_generated_files/can1.c mcc_generated_files/clock.c mcc_generated_files/dma.c mcc_generated_files/ecan1.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/reset.c mcc_generated_files/system.c mcc_generated_files/traps.c FastTransfer_CAN.c Init.c main.c timers.c uart1_config.c HandleComms.c
 
 
 CFLAGS=
@@ -94,6 +94,34 @@ MP_LINKER_FILE_OPTION=,--script=p33EP512GM604.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/FastTransfer/crc.o: FastTransfer/crc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/crc.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/crc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/crc.c  -o ${OBJECTDIR}/FastTransfer/crc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/crc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/crc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/ft.o: FastTransfer/ft.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/ft.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/ft.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ft.c  -o ${OBJECTDIR}/FastTransfer/ft.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ft.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ft.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/parser.o: FastTransfer/parser.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/parser.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/parser.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/parser.c  -o ${OBJECTDIR}/FastTransfer/parser.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/parser.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/parser.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/ring_buffer.o: FastTransfer/ring_buffer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ring_buffer.c  -o ${OBJECTDIR}/FastTransfer/ring_buffer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ring_buffer.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ring_buffer.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 ${OBJECTDIR}/mcc_generated_files/can1.o: mcc_generated_files/can1.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/can1.o.d 
@@ -164,34 +192,6 @@ ${OBJECTDIR}/mcc_generated_files/traps.o: mcc_generated_files/traps.c  nbproject
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/traps.c  -o ${OBJECTDIR}/mcc_generated_files/traps.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/traps.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/traps.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/FastTransfer/crc.o: FastTransfer/crc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/crc.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/crc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/crc.c  -o ${OBJECTDIR}/FastTransfer/crc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/crc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/crc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/ft.o: FastTransfer/ft.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/ft.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/ft.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ft.c  -o ${OBJECTDIR}/FastTransfer/ft.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ft.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ft.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/parser.o: FastTransfer/parser.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/parser.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/parser.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/parser.c  -o ${OBJECTDIR}/FastTransfer/parser.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/parser.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/parser.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/ring_buffer.o: FastTransfer/ring_buffer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ring_buffer.c  -o ${OBJECTDIR}/FastTransfer/ring_buffer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ring_buffer.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ring_buffer.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/FastTransfer_CAN.o: FastTransfer_CAN.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/FastTransfer_CAN.o.d 
@@ -206,26 +206,12 @@ ${OBJECTDIR}/Init.o: Init.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  Init.c  -o ${OBJECTDIR}/Init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/Init.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/Init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/commsReceive.o: commsReceive.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/commsReceive.o.d 
-	@${RM} ${OBJECTDIR}/commsReceive.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  commsReceive.c  -o ${OBJECTDIR}/commsReceive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/commsReceive.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/commsReceive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/peripheralSystems.o: peripheralSystems.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/peripheralSystems.o.d 
-	@${RM} ${OBJECTDIR}/peripheralSystems.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  peripheralSystems.c  -o ${OBJECTDIR}/peripheralSystems.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/peripheralSystems.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/peripheralSystems.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/timers.o: timers.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -241,7 +227,42 @@ ${OBJECTDIR}/uart1_config.o: uart1_config.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  uart1_config.c  -o ${OBJECTDIR}/uart1_config.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/uart1_config.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/uart1_config.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
+${OBJECTDIR}/HandleComms.o: HandleComms.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/HandleComms.o.d 
+	@${RM} ${OBJECTDIR}/HandleComms.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  HandleComms.c  -o ${OBJECTDIR}/HandleComms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/HandleComms.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/HandleComms.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 else
+${OBJECTDIR}/FastTransfer/crc.o: FastTransfer/crc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/crc.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/crc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/crc.c  -o ${OBJECTDIR}/FastTransfer/crc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/crc.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/crc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/ft.o: FastTransfer/ft.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/ft.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/ft.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ft.c  -o ${OBJECTDIR}/FastTransfer/ft.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ft.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ft.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/parser.o: FastTransfer/parser.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/parser.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/parser.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/parser.c  -o ${OBJECTDIR}/FastTransfer/parser.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/parser.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/parser.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/FastTransfer/ring_buffer.o: FastTransfer/ring_buffer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
+	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o.d 
+	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ring_buffer.c  -o ${OBJECTDIR}/FastTransfer/ring_buffer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ring_buffer.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ring_buffer.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 ${OBJECTDIR}/mcc_generated_files/can1.o: mcc_generated_files/can1.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/can1.o.d 
@@ -312,34 +333,6 @@ ${OBJECTDIR}/mcc_generated_files/traps.o: mcc_generated_files/traps.c  nbproject
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/traps.c  -o ${OBJECTDIR}/mcc_generated_files/traps.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcc_generated_files/traps.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/mcc_generated_files/traps.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/FastTransfer/crc.o: FastTransfer/crc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/crc.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/crc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/crc.c  -o ${OBJECTDIR}/FastTransfer/crc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/crc.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/crc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/ft.o: FastTransfer/ft.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/ft.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/ft.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ft.c  -o ${OBJECTDIR}/FastTransfer/ft.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ft.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ft.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/parser.o: FastTransfer/parser.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/parser.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/parser.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/parser.c  -o ${OBJECTDIR}/FastTransfer/parser.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/parser.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/parser.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/FastTransfer/ring_buffer.o: FastTransfer/ring_buffer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/FastTransfer" 
-	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o.d 
-	@${RM} ${OBJECTDIR}/FastTransfer/ring_buffer.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  FastTransfer/ring_buffer.c  -o ${OBJECTDIR}/FastTransfer/ring_buffer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FastTransfer/ring_buffer.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/FastTransfer/ring_buffer.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/FastTransfer_CAN.o: FastTransfer_CAN.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/FastTransfer_CAN.o.d 
@@ -354,26 +347,12 @@ ${OBJECTDIR}/Init.o: Init.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE)  Init.c  -o ${OBJECTDIR}/Init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/Init.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/Init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/commsReceive.o: commsReceive.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/commsReceive.o.d 
-	@${RM} ${OBJECTDIR}/commsReceive.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  commsReceive.c  -o ${OBJECTDIR}/commsReceive.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/commsReceive.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/commsReceive.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/peripheralSystems.o: peripheralSystems.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/peripheralSystems.o.d 
-	@${RM} ${OBJECTDIR}/peripheralSystems.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  peripheralSystems.c  -o ${OBJECTDIR}/peripheralSystems.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/peripheralSystems.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/peripheralSystems.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/timers.o: timers.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -388,6 +367,13 @@ ${OBJECTDIR}/uart1_config.o: uart1_config.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/uart1_config.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  uart1_config.c  -o ${OBJECTDIR}/uart1_config.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/uart1_config.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
 	@${FIXDEPS} "${OBJECTDIR}/uart1_config.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/HandleComms.o: HandleComms.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/HandleComms.o.d 
+	@${RM} ${OBJECTDIR}/HandleComms.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  HandleComms.c  -o ${OBJECTDIR}/HandleComms.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/HandleComms.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/HandleComms.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 endif
 
